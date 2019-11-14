@@ -59,6 +59,7 @@ td button{
 
 @media screen and (max-width: 400px){
     tr{
-        grid-template-columns: 20% 50% 20%;
+        grid-gap: 10px;
+        grid-template-columns: 1fr 45% 1fr;
     }     
 }
