@@ -48,14 +48,17 @@ td button{
     } 
 }
 
-@media screen and (max-width: 840px){
+@media screen and (max-width: 850px){
     tr{
-        grid-template-columns: repeat(3, 25%);
+        grid-template-areas: "a b"
+                              "c d e"; 
+        grid-template-columns: 25% 45% 25%;
     }     
 }
 
+
 @media screen and (max-width: 400px){
     tr{
-        grid-template-columns: repeat(3, 1fr);
+        grid-template-columns: 20% 50% 20%;
     }     
 }
