@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>My Courses list App</title>
+        <link rel="stylesheet" href="Assets/css/courseslist.css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    </head>
+    <body>
+        <h1><span><i class="fa fa-book" aria-hidden="true"></i></span> My <span>Courses</span> List App</h1>
+        <div class="container">
+            <span class="alert alert-success message" role="alert">
+                Added to Courses List!
+            </span>
+            <div class="form-group">
+                <label for="courseName">Enter Course Name</label>
+                <input type="text" class="form-control" id="courseName" required>
+            </div>
+
+            <div class="form-group">
+                <label for="courseDescription">Enter Course Description</label>
+                <textarea class="form-control" id="courseDescription" required></textarea>
+            </div>
+
+            <div class="form-group">
+                <label for="courseCode">Enter Course Code</label>
+                <input type="text" class="form-control" id="courseCode" required>
+            </div>
+
+            <button type="submit" class="btn btn-success" id="submit">Submit</button>
+        </div><!--container-->
+        <table id="courseDetails">
+            <thead>
+                <tr>
+                    <th>Course Name</th>
+                    <th>Course Description</th>
+                    <th>Course Code</th>
+                    <th></th>
+                    <th></th>
+                </tr>
+            </thead>
+            <tbody>
+                
+            </tbody>
+        </table>
+    </body>
+    <script src="Assets/js/courseslist.js"></script>
+</html>

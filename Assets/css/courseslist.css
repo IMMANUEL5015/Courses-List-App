@@ -1,0 +1,61 @@
+h1{
+    text-align: center;
+    margin: 30px auto 50px auto !important;
+}
+h1 span{
+    color: rgb(12, 189, 12);
+}
+
+div.container{
+    width: 90%;
+    max-width:600px;
+    margin: auto;
+}
+.message {
+    position: fixed;
+    top: -1000px;
+}
+button{
+    width: 100%;
+    font-size: 1.2em !important;
+}
+
+table{
+    width: 80%;
+    margin: 50px auto 30px auto;
+    border: 1px solid gray; 
+    box-shadow: 2px 2px 2px 2px gray;
+    text-align: left;
+   
+}
+tr{
+    display: grid;
+    grid-template-columns: 20% 35% 20% 1fr 1fr;
+    grid-gap: 15px;
+    margin-top: 8px;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+td button{
+    margin-top: -10px;
+}
+
+@media screen and (max-width: 1020px){
+    table{
+        width: 95%;
+       
+    } 
+}
+
+@media screen and (max-width: 840px){
+    tr{
+        grid-template-columns: repeat(3, 25%);
+    }     
+}
+
+@media screen and (max-width: 400px){
+    tr{
+        grid-template-columns: repeat(3, 1fr);
+    }     
+}
