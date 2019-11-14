@@ -30,5 +30,5 @@ This app will not store your course details forever. Once the browser window is 
 
 For best experience, use either chrome or firefox browser.
 
-Click [here](https://immanuel5015.github.io/BookListApp/courselist.html) to find the app.
+Click [here](https://immanuel5015.github.io/Courses-List-App/courselist.html) to find the app.
 
