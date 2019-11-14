@@ -1,7 +1,7 @@
 # Courses List App
 
 ## Overview
-This web app allows users to store a list of the details of the courses they are currently taking in school.
+This web app allows users to store a list of the courses they are currently taking in school.
 
 The app stores three categories of course details:
 * The name of the course (e.g. **Linear Algebra**).
